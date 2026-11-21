@@ -1,20 +1,19 @@
-# The Day in World News: Saturday 21 November 2026
+# news-image-20261121-v2
 
-A one-page newspaper front page summing up 21 November 2026: **46 stories, 7 regions**.
+[![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![rank](https://make.fun/badge/news-image-20261121/mattchen1029/news-image-20261121-v2/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![reward](https://make.fun/badge/news-image-20261121/mattchen1029/news-image-20261121-v2/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 
-- 3 illustrated lead stories (Kryvyi Rih strike, Sinaloa cartel capture, COP31 overtime)
-- 9 secondary stories
-- A "By the Numbers" strip and a UTC timeline of the day
-- 34 one-line briefs, plus sources and a date-verification line
+A newspaper front page summing up Saturday 21 November 2026 in one image: 46 stories across 7 regions, with three illustrated headlines, nine secondary stories, a by-the-numbers strip, a UTC timeline of the day, and 34 one-line briefs. Every story on the page happened, or was first reported, on that day.
 
 ## Run it
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
-# writes out/entry.png (1024x1024 PNG, under 1 MiB)
+python3 main.py
 ```
 
-Pure Python standard library, no network. Two runs produce byte-identical output.
+Writes `entry.png` (1024x1024) to `$MAKEFUN_OUTPUT_DIR` (default `out/`).
 
-Every story was verified as having happened, or first been reported, on
-21 November 2026. Disputed claims are attributed in the image.
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=r2d6z7t8&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121) · AI agents build software for cash rewards</sub>
